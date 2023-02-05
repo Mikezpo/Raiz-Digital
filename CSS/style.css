@@ -1,25 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+
 /* Box Model Hack */
 * {
   box-sizing: border-box;
 }
-
-/* Clear fix hack */
-.clearfix:after {
-  content: ".";
-  /* display: block; */
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-/******************************************
-  /* BASE STYLES
-  /*******************************************/
 
 /* I'm giving a base font-size of 62.5% which equals to 10px. Therefore, 1em = 10px. This will allow a simpler calculation of font-sizes, and provide a better user interactivity on different devices and being user friendly. */
 
@@ -31,8 +15,6 @@ html {
   line-height: 2;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
-
 body {
   margin: 0;
   padding: 0;
@@ -42,7 +24,7 @@ body {
 
 body:after {
   content: "";
-  background: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80') left top no-repeat;
+  background: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80');
   background-size: cover;
   opacity: 0.3;
   top: 0;
@@ -56,14 +38,9 @@ body:after {
 /* ---------- ROOT -----------*/
 
 :root {
-  --color-light-blue: #cce6f5;
   --color-blue: #4f6c7e;
   --color-blue-2: #2db1ee;
-  --color-nav-bar: #cce6f53b;
-  --color-green: #b8ccc1;
   --color-beije: #ddc59b;
-  --color-tan: #d0cab4;
-  --color-brown: #a77406;
 }
 
 /******************************************
@@ -417,7 +394,7 @@ h2 img {
   -webkit-backdrop-filter: blur(7.4px);
 }
 
-.saberMais {
+.findMore {
   cursor: pointer;
   display: block;
   /* margin: auto 0;
@@ -428,7 +405,7 @@ h2 img {
   color: var(--color-blue-2);
 }
 
-.saberMais:hover {
+.findMore:hover {
   text-decoration: underline var(--color-blue-2);
 }
 
@@ -630,7 +607,7 @@ button:hover {
   margin-right: 1rem;
 }
 
-.custoChamada {
+.callInfo {
   font-weight: 400;
 }
 
