@@ -100,7 +100,7 @@ a {
 .companyTitle  a{
   font-size: 2.4rem;
   font-weight: 600;
-  color: var(--color-beije);
+  color: white;
   margin: 0 0 0.5rem 2rem;
 }
 
@@ -146,6 +146,16 @@ a {
   width: 100%;
   background: white;
   border-radius: 10px;
+}
+
+#barTwo {
+  width: 70%;
+  margin-left: auto;
+}
+
+#barThree {
+  width: 50%;
+  margin-left: auto;
 }
 
 /* ********* MAIN ********* */
@@ -835,7 +845,7 @@ footer {
   .mainTopSection {
     display: flex;
     justify-content: center;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .introText {
@@ -854,6 +864,10 @@ footer {
   .imageCardTwo,
   .textCardTwo {
     width: 95%;
+  }
+
+  #popUpText {
+    text-align: center;
   }
 
   /* Services Boxes */
