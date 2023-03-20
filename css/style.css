@@ -382,7 +382,7 @@ h2 {
 }
 
 .iconBox {
-  text-align: left;
+  text-align: center;
 }
 
 .iconBoxes {
@@ -405,11 +405,9 @@ h2 {
 }
 
 .findMore {
+  text-align: right;
   cursor: pointer;
   display: block;
-  /* margin: auto 0;
-  bottom: 1rem;
-  right: 2rem; */
   font-size: 2rem;
   font-weight: 600;
   color: var(--color-blue-2);
@@ -982,6 +980,7 @@ footer {
 
   .boxText span {
     text-align: center;
+    
   }
 
   .sectionExtraText {
