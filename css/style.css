@@ -102,6 +102,7 @@ a {
   font-weight: 600;
   color: white;
   margin: 0 0 0.5rem 2rem;
+  letter-spacing: 0.2rem;
 }
 
 .navLinks {
@@ -411,9 +412,10 @@ h2 {
   -webkit-backdrop-filter: blur(7.4px);
 }
 
-/* .boxText p {
-  padding: 0 1rem;
-} */
+.boxText:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px var(--color-blue-2);
+}
 
 .findMore {
   text-align: right;
@@ -962,6 +964,8 @@ footer {
   .textCard > h3,
   .textCardTwo > h3 {
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .textCard > p,
