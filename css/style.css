@@ -118,17 +118,20 @@ a {
 .navLinks li {
   list-style: none;
   letter-spacing: 0.2rem;
+  margin: 0 1rem;
 }
 
 .navLinks li a {
   display: block;
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  
 }
 
 .navLinks li:hover {
   background-color: var(--color-nav-bar);
+  transform: scale(1.2);
+  border-bottom: 1px solid white;
 }
 
 .navButton {
@@ -408,9 +411,9 @@ h2 {
   -webkit-backdrop-filter: blur(7.4px);
 }
 
-.boxText p {
+/* .boxText p {
   padding: 0 1rem;
-}
+} */
 
 .findMore {
   text-align: right;
