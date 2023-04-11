@@ -41,6 +41,7 @@ body:after {
   --color-blue: #4f6c7e;
   --color-blue-2: #2db1ee;
   --color-beije: #ddc59b;
+  --color-red: #ff3c00;
 }
 
 /******************************************
@@ -495,13 +496,15 @@ h2 {
   cursor: pointer;
   position: absolute;
   border-radius: 16px;
+  top: 2rem;
   right: 4rem;
-  border: 1px solid var(--color-blue-2);
+  border: 1px solid white;
   padding: 1rem;
 }
 
 #popUp img:hover {
   scale: 1.2;
+  color: white;
   background: var(--color-blue-2);
   border: 1px solid white;
   box-shadow: 0 0 10px var(--color-blue-2);
@@ -967,6 +970,10 @@ footer {
   .textCard,
   .textCardTwo {
     height: 100%;
+  }
+
+  .textCard {
+    padding-left: 0;
   }
 
   .textCard > h3,
